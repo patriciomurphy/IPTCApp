@@ -1,4 +1,4 @@
-const { Camera, Save, Share2, MoreVertical, X, Plus, Image, CheckCircle, ChevronLeft, UploadCloud, Edit3, MapPin, User, Briefcase, Type, Sparkles, Loader2 } = lucide;
+const { Camera, Save, Share2, MoreVertical, X, Plus, Image: ImageIcon, CheckCircle, ChevronLeft, UploadCloud, Edit3, MapPin, User, Briefcase, Type, Sparkles, Loader2 } = lucide;
 
 const { useState, useEffect, useRef } = React;
 
@@ -228,5 +228,6 @@ const MobileApp = () => {
 
 
 const root = ReactDOM.createRoot(document.getElementById('root')); root.render(React.createElement(MobileApp));
+
 
 
